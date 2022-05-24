@@ -1,5 +1,5 @@
 class CounterState {
   int counterValue;
-
-  CounterState({required this.counterValue});
+  bool wasIncremented;
+  CounterState({required this.counterValue, this.wasIncremented = false});
 }
